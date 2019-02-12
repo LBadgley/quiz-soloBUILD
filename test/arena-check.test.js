@@ -1,5 +1,8 @@
-const test = QUnit.test;
+import arenaCheck from '../src/result/calculate/arena-check.js';
 
+
+const test = QUnit.test;
+QUnit.module('arena check');
 let scorecard = null;
 
 QUnit.testStart(function() {
@@ -22,5 +25,3 @@ test('add one to handgun if "prairie" is checked', function(assert) {
     const result = arenaCheck('prairie', scorecard);
     assert.deepEqual(result, expected);
 });
-
-import arenaCheck from '../src/result/calculate/arena-check.js';

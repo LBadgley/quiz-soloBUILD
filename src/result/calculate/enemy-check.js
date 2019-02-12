@@ -5,7 +5,7 @@ function enemyCheck(enemy, scorecard) {
     if(enemy === 'vampire') {
         scorecard.crossbow += 1;
     }
-    if(enemy === 'warewolf') {
+    if(enemy === 'werewolf') {
         scorecard.handgun += 1;
     }
     return scorecard;

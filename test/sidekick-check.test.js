@@ -1,5 +1,8 @@
-const test = QUnit.test;
+import sidekickCheck from '../src/result/calculate/sidekick-check.js';
 
+
+const test = QUnit.test;
+QUnit.module('sidekick check');
 let scorecard = null;
 
 QUnit.testStart(function() {
@@ -23,5 +26,3 @@ test('add one to handgun if "cat" is checked', function(assert) {
     const result = sidekickCheck('cat', scorecard);
     assert.deepEqual(result, expected);
 });
-
-import sidekickCheck from '../src/result/calculate/sidekick-check.js';
