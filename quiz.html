@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Quiz
+        </h1>
+    </header>
+    <main>
+        <form id="quiz">
+            <fieldset>
+                <legend>Choose your Enemy.</legend>
+                <p>
+                    <label for="zombie">Zombie</label>
+                        <input
+                            type="radio"
+                            id="zombie"
+                            name="enemy"
+                            value="zombie"
+                        >
+                </p>
+                <p>
+                    <label for="vampire">Vampire</label>
+                        <input
+                            type="radio"
+                            id="vampire"
+                            name="enemy"
+                            value="vampire"
+                        >
+                </p>
+                <p>
+                    <label for="warewolf">Warewolf</label>
+                    <input
+                        type="radio"
+                        id="warewolf"
+                        name="enemy"
+                        value="warewolf"
+                    >
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Choose your Arena.</legend>
+                <p>
+                    <label for="city">City</label>
+                    <input
+                        type="radio"
+                        id="city"
+                        name="arena"
+                        value="city"
+                    >
+                </p>
+                <p>
+                    <label for="forest">Forest</label>
+                    <input
+                        type="radio"
+                        id="forest"
+                        name="arena"
+                        value="forest"
+                    >
+                </p>
+                <p>
+                    <label for="prairie">Prairie</label>
+                    <input
+                    type="radio"
+                        id="prairie"
+                        name="arena"
+                        value="prairie"
+                    >
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Time of Day.</legend>
+                <p>
+                    <label for="dawn">Dawn</label>
+                    <input
+                        type="radio"
+                        id="dawn"
+                        name="time"
+                        value="dawn"
+                    >
+                </p>
+                <p>
+                    <label for="mid-day">Mid-day</label>
+                    <input
+                        type="radio"
+                        id="mid-day"
+                        name="time"
+                        value="mid-day"
+                    >
+                </p>
+                <p>
+                    <label for="dusk">Dusk</label>
+                    <input
+                        type="radio"
+                        id="dusk"
+                        name="time"
+                        value="dusk"
+                    >
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Choose your sidekick.</legend>
+                <p>
+                    <label for="mutt">The Mutt</label>
+                    <input
+                        type="radio"
+                        id="mutt"
+                        name="sidekick"
+                        value="mutt"
+                    >
+                </p>
+                <p>
+                    <label for="cat">The Cat</label>
+                    <input
+                        type="radio"
+                        id="cat"
+                        name="sidekick"
+                        value="cat"
+                    >
+                </p>
+                <p>
+                    <label for="rat">The Rat</label>
+                    <input
+                        type="radio"
+                        id="rat"
+                        name="sidekick"
+                        value="rat"
+                    >
+                </p>
+            </fieldset>
+            <br />
+            <button>Submit!</button>
+        </form>
+    </main>
+    <script type="module" src="./src/quiz/quiz.js"></script>
+</body>
+</html>
