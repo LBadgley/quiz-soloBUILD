@@ -1,5 +1,5 @@
 const test = QUnit.test;
-QUnit.module('ratescorecard');
+QUnit.module('rateScorecard');
 // let scorecard = null;
 
 // // QUnit.testStart(function() {

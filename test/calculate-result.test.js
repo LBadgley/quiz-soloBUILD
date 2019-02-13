@@ -1,5 +1,5 @@
 import calculateResult from '../src/result/calculate/calculate-result.js';
-
+QUnit.module('result check');
 const test = QUnit.test;
 
 
